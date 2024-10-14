@@ -63,11 +63,11 @@ if __name__ == '__main__':
                 else:
                     print(f'\nA divisão dos valores é: {r}\n')
 
-    resp = ''
-    while resp not in 'SN':
-        resp = int(input('Gostaria de continuar? [S/N]: ')).upper()
-        if resp == 'N':
-            break
+        resp = ' '
+        while resp not in 'SN':
+            resp = str(input('Gostaria de continuar? [S/N]: ')).upper()
+            if resp == 'N':
+                break
 
             
         
